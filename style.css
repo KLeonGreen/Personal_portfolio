@@ -1,0 +1,171 @@
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+#all_contents {
+  position: relative;
+  height: 750px;
+  background-color: #1a1a1a;
+  padding: 100px;
+  /* margin: 100px; */
+}
+
+#logo {
+  width: 180px;
+  height: 200px;
+  display: inline-block;
+  position: sticky;
+  top: 0;
+  background-color: #1a1a1a;
+  z-index: 2;
+}
+
+#logo img {
+  width: 100%;
+  height: 100%;
+}
+
+#top_image {
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+  height: 950px;
+  left: 50%;
+  top: 0;
+  right: 0;
+}
+
+#top_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  color: white;
+  font-size: 11em;
+  margin-bottom: 0;
+  z-index: 1;
+  position: relative;
+  top: -10vh;
+  left: -1vh;
+}
+
+h3 {
+  color: white;
+  font-size: 2em;
+  margin-top: 0;
+  position: relative;
+  top: -10vh;
+}
+
+h5 {
+  color: #ffffff;
+  font-style: italic;
+  position: relative;
+  top: -8vh;
+}
+
+#paragraph {
+  width: 69%;
+  color: white;
+  position: relative;
+  top: -8vh;
+}
+
+#second_section {
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  height: 750px;
+  background-color: #ffffff;
+  /* margin-top: 24.4vh; */
+}
+
+#top_section {
+  height: 50%;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  cursor: pointer;
+  color: #1a1a1a;
+  /* padding-left: 35%; */
+}
+
+#bottom_section {
+  height: 50%;
+  background-color: #242423;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+#title {
+  margin-top: 5%;
+  font-size: 10em;
+  text-align: center;
+  font-weight: 900;
+  color: #242423;
+}
+
+.education_content {
+  margin-top: 4%;
+  margin-left: 100px;
+  color: #242423;
+  display: none;
+}
+
+#top_section:hover #title {
+  display: none;
+  transition: 6s;
+}
+
+#top_section:hover .education_content {
+  display: block;
+  transition: 5s;
+}
+
+#title2 {
+  margin-top: 5%;
+  font-size: 10em;
+  text-align: center;
+  font-weight: 900;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.education_content2 {
+  margin-top: 4%;
+  margin-left: 100px;
+  color: #ffffff;
+  display: none;
+}
+
+#bottom_section:hover #title2 {
+  display: none;
+  transition: 6s;
+}
+
+#bottom_section:hover .education_content2 {
+  display: block;
+  transition: 5s;
+}
+
+#nav_down {
+  background-color: black;
+  padding: 20px;
+}
+
+#nav_down img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100px;
+  margin-bottom: 20px;
+}
