@@ -50,6 +50,10 @@ h1 {
   position: relative;
   top: -10vh;
   left: -1vh;
+  font-weight: 100;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 h3 {
@@ -84,7 +88,8 @@ h5 {
 
 #top_section {
   height: 50%;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-image: url(./images/lines2.png);
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -92,17 +97,22 @@ h5 {
   cursor: pointer;
   color: #1a1a1a;
   /* padding-left: 35%; */
+  background-size: contain;
+  background-position: left;
 }
 
 #bottom_section {
   height: 50%;
-  background-color: #242423;
+  /* background-color: #242423; */
+  background-image: url(./images/linesb.png);
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
   cursor: pointer;
   color: #ffffff;
+  background-size: contain;
+  background-position: left;
 }
 
 #title {
@@ -111,6 +121,9 @@ h5 {
   text-align: center;
   font-weight: 900;
   color: #242423;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .education_content {
